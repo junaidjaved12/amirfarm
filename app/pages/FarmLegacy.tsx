@@ -31,7 +31,7 @@ export default function FarmLegacy() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-80px" }}
-            variants={fadeUp}
+            // variants={fadeUp}
             className="relative"
           >
             <div className="relative h-[24rem] sm:h-[32rem] w-full overflow-hidden rounded-2xl shadow-xl bg-slate-200">
@@ -61,7 +61,7 @@ export default function FarmLegacy() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-80px" }}
-            variants={fadeUp}
+            // variants={fadeUp}
             custom={1}
           >
             <div className="mb-4 flex items-center gap-3">

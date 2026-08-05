@@ -80,7 +80,7 @@ export default function CoreValues() {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, margin: "-60px" }}
-              variants={fadeUp}
+              // variants={fadeUp}
               custom={i}
               className="group relative p-8 sm:p-10 rounded-2xl border transition-all duration-300 hover:-translate-y-1 shadow-xl backdrop-blur-md"
               style={{
