@@ -30,7 +30,7 @@ export default function AboutUs() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-80px" }}
-            variants={fadeUp}
+            // variants={fadeUp}
             className="lg:col-span-6 grid grid-cols-2 gap-4 sm:gap-6"
           >
             <div className="space-y-4 sm:space-y-6">
@@ -81,7 +81,7 @@ export default function AboutUs() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-80px" }}
-            variants={fadeUp}
+            // variants={fadeUp}
             custom={1}
             className="lg:col-span-6 lg:pl-6"
           >
