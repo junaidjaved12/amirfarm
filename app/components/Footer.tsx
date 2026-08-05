@@ -25,7 +25,7 @@ export default function Footer() {
           {/* Facebook Social Link */}
           <div className="pt-2 flex items-center gap-4">
             <a
-              href="https://www.facebook.com"
+              href="https://www.facebook.com/amirmughalfarms"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-xl bg-slate-100 hover:bg-[#c1603f] flex items-center justify-center text-[#17325a] hover:text-white transition-all duration-300 shadow-xs"
