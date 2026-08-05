@@ -89,29 +89,64 @@
         </div>
       </section>
 
-        {/* 📊 STATS STRIP */}
-        <section className="border-b border-slate-200/80 bg-white shadow-sm relative z-20">
-          <div className="max-w-[1600px] mx-auto px-6 sm:px-14 lg:px-20 py-10">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center md:text-left divide-y md:divide-y-0 md:divide-x divide-slate-100">
-              <div className="px-4">
-                <h3 className="font-serif text-3xl sm:text-4xl font-semibold" style={{ color: NAVY_DEEP }}>2022</h3>
-                <p className="text-xs uppercase tracking-widest text-slate-500 mt-1 font-medium">Established</p>
-              </div>
-              <div className="px-4 pt-4 md:pt-0">
-                <h3 className="font-serif text-3xl sm:text-4xl font-semibold" style={{ color: NAVY_DEEP }}>Advanced</h3>
-                <p className="text-xs uppercase tracking-widest text-slate-500 mt-1 font-medium">& Sustainable</p>
-              </div>
-              <div className="px-4 pt-4 md:pt-0">
-                <h3 className="font-serif text-3xl sm:text-4xl font-semibold" style={{ color: NAVY_DEEP }}>Agriculture</h3>
-                <p className="text-xs uppercase tracking-widest text-slate-500 mt-1 font-medium">Core Domain</p>
-              </div>
-              <div className="px-4 pt-4 md:pt-0">
-                <h3 className="font-serif text-3xl sm:text-4xl font-semibold" style={{ color: NAVY_DEEP }}>Traditional</h3>
-                <p className="text-xs uppercase tracking-widest text-slate-500 mt-1 font-medium">& Cultural Dera Vibe</p>
-              </div>
-            </div>
-          </div>
-        </section>
+       {/* 📊 STATS STRIP */}
+<section className="border-b border-slate-200/80 bg-white shadow-sm relative z-20">
+  <div className="max-w-[1600px] mx-auto px-4 sm:px-8 lg:px-20 py-8 sm:py-10">
+    
+    <div className="
+      grid 
+      grid-cols-2 
+      sm:grid-cols-2 
+      md:grid-cols-4 
+      gap-6 sm:gap-8 
+      text-center md:text-left
+      divide-y md:divide-y-0 md:divide-x 
+      divide-slate-100
+    ">
+      
+      {/* Item 1 */}
+      <div className="px-2 sm:px-4">
+        <h3 className="font-serif text-2xl sm:text-3xl md:text-4xl font-semibold" style={{ color: NAVY_DEEP }}>
+          2022
+        </h3>
+        <p className="text-[10px] sm:text-xs uppercase tracking-widest text-slate-500 mt-1 font-medium">
+          Established
+        </p>
+      </div>
+
+      {/* Item 2 */}
+      <div className="px-2 sm:px-4 pt-4 md:pt-0">
+        <h3 className="font-serif text-2xl sm:text-3xl md:text-4xl font-semibold" style={{ color: NAVY_DEEP }}>
+          Advanced
+        </h3>
+        <p className="text-[10px] sm:text-xs uppercase tracking-widest text-slate-500 mt-1 font-medium">
+          & Sustainable
+        </p>
+      </div>
+
+      {/* Item 3 */}
+      <div className="px-2 sm:px-4 pt-4 md:pt-0">
+        <h3 className="font-serif text-2xl sm:text-3xl md:text-4xl font-semibold" style={{ color: NAVY_DEEP }}>
+          Agriculture
+        </h3>
+        <p className="text-[10px] sm:text-xs uppercase tracking-widest text-slate-500 mt-1 font-medium">
+          Core Domain
+        </p>
+      </div>
+
+      {/* Item 4 */}
+      <div className="px-2 sm:px-4 pt-4 md:pt-0">
+        <h3 className="font-serif text-2xl sm:text-3xl md:text-4xl font-semibold" style={{ color: NAVY_DEEP }}>
+          Traditional
+        </h3>
+        <p className="text-[10px] sm:text-xs uppercase tracking-widest text-slate-500 mt-1 font-medium">
+          & Cultural Dera Vibe
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
 
   {/* 📖 STORY SECTION */}
 <section className="py-28 px-6 sm:px-14 lg:px-20 max-w-[1600px] mx-auto">

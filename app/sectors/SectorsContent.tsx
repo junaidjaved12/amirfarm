@@ -173,18 +173,30 @@ export default function SectorsContent() {
                           Find exact routing and coordinates for {sector.locationName}. Click or explore directly via the embedded map.
                         </p>
                       </div>
-                      <div className="lg:col-span-7 h-[450px] rounded-xl overflow-hidden shadow-sm border border-slate-200 bg-white">
-                        <iframe 
-                          src={sector.mapEmbedSrc} 
-                          width="100%" 
-                          height="100%" 
-                          style={{ border: 0 }} 
-                          allowFullScreen={false} 
-                          loading="lazy" 
-                          referrerPolicy="no-referrer-when-downgrade"
-                          title={sector.locationName}
-                        />
-                      </div>
+                      <div className="
+  lg:col-span-7 
+  w-full 
+  h-[300px] 
+  sm:h-[320px] 
+  md:h-[400px] 
+  lg:h-[450px] 
+  rounded-xl 
+  overflow-hidden 
+  shadow-sm 
+  border 
+  border-slate-200 
+  bg-white
+">
+  <iframe 
+    src={sector.mapEmbedSrc} 
+    className="w-full h-full"
+    style={{ border: 0 }} 
+    allowFullScreen={false} 
+    loading="lazy" 
+    referrerPolicy="no-referrer-when-downgrade"
+    title={sector.locationName}
+  />
+</div>
                     </div>
                   </div>
 

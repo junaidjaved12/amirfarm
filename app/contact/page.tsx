@@ -168,19 +168,27 @@ export default function Contact() {
 
           </div>
 
-          {/* Right Column: Google Map Embed */}
-          <div className="lg:col-span-7 h-full rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-white">
-            <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.5!2d72.6100958!3d33.8195015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df0500360b6dcb%3A0xd06a2218dc855d19!2sAmir%20Farms%20Burhan%20Office!5e0!3m2!1sen!2spk!4v1710000000000!5m2!1sen!2spk" 
-              width="100%" 
-              height="100%" 
-              style={{ border: 0 }} 
-              allowFullScreen={false} 
-              loading="lazy" 
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Amir Farms Burhan Office Map"
-            />
-          </div>
+       <div className="
+  lg:col-span-7 
+  w-full 
+  aspect-[16/9] 
+  lg:aspect-auto 
+  lg:h-full 
+  rounded-3xl 
+  overflow-hidden 
+  shadow-xl 
+  border 
+  border-slate-200 
+  bg-white
+">
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.5!2d72.6100958!3d33.8195015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df0500360b6dcb%3A0xd06a2218dc855d19!2sAmir%20Farms%20Burhan%20Office!5e0!3m2!1sen!2spk!4v1710000000000!5m2!1sen!2spk"
+    className="w-full h-full"
+    style={{ border: 0 }}
+    loading="lazy"
+    title="Amir Farms Burhan Office Map"
+  />
+</div>
 
         </div>
 
